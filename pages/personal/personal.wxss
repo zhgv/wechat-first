@@ -1,0 +1,162 @@
+page{
+  background-color: #F5F5F5;
+  padding: 0rpx;
+  margin: 0rpx;
+}
+
+.personal-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-container .bg-container{
+  width: 100%;
+  height: 550rpx;
+}
+
+.bg-image image{
+  width: 100%;
+  height: 400rpx;
+}
+
+.bg-container .user-info{
+  width: 100%;
+  height: 150rpx;
+  background: #cde8f6;
+  margin-top: -10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.article{
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  height: 80rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter{
+  display: flex;
+  flex-direction: row;
+  margin-right: 20rpx;
+  align-items: center;
+}
+
+.word{
+  margin-left: 20rpx;
+}
+.mingyan{
+  font-size: 35rpx;
+  margin-left: 10rpx;
+  color: #222831;
+  font-style: oblique;
+}
+
+.letter image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 5rpx;
+}
+
+.bg-container .user-image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 80rpx;
+  z-index: 10;
+  position: absolute;
+  margin-top: -120rpx;
+  right: 30rpx;
+  border-style:solid;
+  border-width:8rpx;
+  border-color: white;
+  /* open-data 头像 圆角设置必须同时设置border-radius和overflow:hidden */
+  overflow:hidden;
+}
+
+.user-info{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 35rpx;
+}
+
+.user-info .user-name{
+  margin-top: 80rpx;
+  width: 35%;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+
+.content-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .message{
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  align-items: center;
+  margin-top: 15rpx;
+} */
+
+.content-item{
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  align-items: center;
+}
+
+.item-image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 15rpx;
+  margin-left: 30rpx;
+}
+
+.word{
+  font-size: 30rpx;
+  margin-left: 30rpx;
+}
+
+.content-container{
+  width: 100%;
+  background: white;
+  margin-top: 15rpx;
+}
+
+.content-container .say-love{
+  border-bottom-style:solid;
+  border-width:1rpx;
+  border-color: #EEE9E9;
+}
+
+/* .content-container .sale{
+  border-bottom-style:solid;
+  border-width:1rpx;
+  border-color: #EEE9E9;
+} */
+
+.suggestion{
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  align-items: center;
+  margin-top: 15rpx;
+}
+
+

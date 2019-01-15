@@ -1,0 +1,4 @@
+/* page/aboutus/aboutus.wxss */
+.about{
+  margin-top: 50rpx;
+}

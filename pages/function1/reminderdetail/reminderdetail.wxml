@@ -1,0 +1,1 @@
+<text data-id="{{index}}" class="cnt">{{item.content}}</text>

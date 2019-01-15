@@ -1,0 +1,113 @@
+/* pages/component/timeline/timeline.wxss */
+@import "/icon.wxss";
+timeline {
+  display: block;
+  background: #fff;
+}
+
+timeline time {
+  width: 120rpx;
+  text-align: center;
+  padding: 20rpx 0;
+  font-size: 26rpx;
+  color: #888;
+  display: block;
+}
+timeline>item {
+  padding: 30rpx 30rpx 30rpx 120rpx;
+  position: relative;
+  display: block;
+  /* 时间轴图标颜色 */
+  color: #ccc;
+  z-index: 0;
+}
+timeline>item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1rpx;
+  background: grey;
+  left: 60rpx;
+  height: 100%;
+  top: 0;
+  z-index: 8;
+}
+timeline>item::before {
+  font-family: "iconfont";
+  content: "\e763";
+  display: block;
+  position: absolute;
+  top: 36rpx;
+  z-index: 9;
+  /* 时间轴图标背景颜色 */
+  background: #fff;
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  border: none;
+  line-height: 50rpx;
+  left: 36rpx;
+}
+
+timeline>item[class*="icon"]::before {
+  background: #fff;
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  border: none;
+  line-height: 50rpx;
+  left: 36rpx;
+}
+
+timeline>item>.content {
+  background: #f1f1f1;
+  padding: 30rpx;
+  border-radius: 6rpx;
+  display: block;
+  color: #666;
+  line-height: 1.6;
+}
+
+timeline>item>.content+.content {
+  margin-top: 20rpx;
+}
+
+.text-blue {
+  color: #0081ff !important;
+}
+
+
+.text-purple {
+  color: #6739b6 !important;
+}
+
+.text-grey {
+  color: #8799a3 !important;
+}
+
+.text-pink {
+  color: #e03997 !important;
+}
+
+.bg-green {
+  background-color: #39b54a !important;
+  color: #fff !important;
+}
+
+.bg-blue{
+  background-color: #0081ff !important;
+  color: #fff !important;
+}
+.bg-danblue{
+  background-color: #13abc4 !important;
+  color: #fff !important;
+}
+.bg-cyan{
+  background-color: #1cbbb4 !important;
+  color: #fff !important;
+}
+.bg-pink{
+  background-color: #e03997 !important;
+  color: #fff !important;
+}
+

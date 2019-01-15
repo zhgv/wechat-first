@@ -1,0 +1,194 @@
+.userinfo-nickname {
+  color: #a38e6d;
+}
+.wc button{
+background-color:  rgb(0, 68, 97);
+width: 250rpx;
+margin-left: 0;
+color: white;
+}
+
+.wc button::after{
+border: none;
+
+}
+/*输入区域*/
+
+.input-wrap {
+  margin: 30rpx 10rpx;
+}
+
+.flex-row {
+  display: flex;
+  margin: 10rpx 0;
+  width: 670rpx;
+  -webkit-box-pack: justify;
+}
+
+.pick-time {
+  line-height: 40rpx;
+  flex: 1;
+  margin: -20rpx 0 20rpx;
+}
+
+.time {
+  color: #777;
+  font-size: 12px;
+  margin-left: 20rpx;
+}
+
+.switch {
+  transform: scale(0.5);
+  vertical-align: middle;
+}
+
+.btn {
+  border-radius: 5px;
+  font-size: 30rpx;
+  line-height: 100rpx;
+  display: block;
+  background: #6fa6cf;
+  margin-left: 20rpx;
+}
+
+.btn-submit {
+  color: #fff;
+  flex: 1;
+  margin-right: 10rpx;
+}
+
+.btn-hover {
+  background: #a2c7e2;
+}
+
+.btn-cancel {
+  background: #fff;
+}
+
+.ipt-main {
+  border: 1rpx solid #acdeaa;
+  border-radius: 5px;
+  height: 80rpx;
+  padding: 10rpx 15px;
+  font-size: 30rpx;
+  width: 610rpx;
+  display: block;
+  margin-left: 30rpx;
+}
+
+/*展示列表区域*/
+
+.list-wrap {
+  text-align: left;
+  width: 670rpx;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  position: relative;
+  border-radius: 0 0 5rpx 5rpx;
+}
+
+.list-wrap::after {
+  content: '';
+  position: absolute;
+  width: 98%;
+  height: 100%;
+  z-index: -1;
+  border: 1px solid #e6e6e6;
+  left: 1%;
+  bottom: -5px;
+  background: #fff;
+  border-radius: 0 0 5rpx 5rpx;
+}
+
+.list-wrap::before {
+  content: '';
+  position: absolute;
+  width: 96%;
+  height: 100%;
+  z-index: -2;
+  border: 1px solid #e6e6e6;
+  left: 2%;
+  bottom: -9px;
+  background: #fff;
+  border-radius: 0 0 5rpx 5rpx;
+}
+
+.list {
+  padding: 10px;
+  position: relative;
+}
+
+.done {
+  background: #e6f1f8;
+  color: #ccc;
+}
+
+.ico-done {
+  position: absolute;
+  right: 100rpx;
+}
+
+.ico-delete {
+  position: absolute;
+  right: 15rpx;
+}
+
+
+
+/*修改*/
+
+
+
+
+
+
+
+/*列表地步操作区*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10rpx;
+  color: #a38e6d;
+  border-top: 1px solid #eee;
+}
+
+.ft-action {
+  color: #6fa6cf;
+  margin: 0 10rpx;
+}
+
+.ft-area {
+  padding: 20rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.ft-mid {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  flex: 1;
+}
+
+.mt {
+  margin-top: 100rpx;
+}
+
+.btn-save {
+  width: 300rpx;
+  color: #fff;
+  margin-left: 200rpx;
+}
+
+.shangbian {
+  width: 560rpx;
+  height: 100rpx;
+}
+.shangbian image{
+   width: 560rpx;
+   height: 100rpx;
+  margin-left: 100rpx;
+  margin-bottom: 100rpx;
+
+}
+

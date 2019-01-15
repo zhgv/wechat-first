@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/function1/reminder/reminder",
+    "pages/function1/aboutus/aboutus",
+    "pages/function1/reminderdetail/reminderdetail",
+    "pages/personal/personal",
+    "pages/function1/timeline/timeline"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "拇指笔记",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "i-notice-bar": "../../dist/notice-bar/index",
+    "i-button": "../../dist/button/index",
+    "i-message": "../../dist/message/index",
+    "i-modal": "../../dist/modal/index",
+    "i-grid": "../../dist/grid/index",
+    "i-card": "../../dist/card/index"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#66CDAA",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/function1/reminder/reminder",
+        "iconPath": "images/note-book.png",
+        "selectedIconPath": "/images/select-note-book.png",
+        "text": "笔记簿"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "images/iam.png",
+        "selectedIconPath": "/images/select-iam.png",
+        "text": "我"
+      }
+    ]
+  }
+}

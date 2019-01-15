@@ -1,0 +1,36 @@
+
+<timeline>
+  <time>01-13</time>
+  <item class='icon-time text-purple'>
+    <view class="content bg-danblue">
+      获取时间轴源码，关注微信公众号“誩哥哥说”，回复时间轴，即可获取
+    </view>
+    <view class="content bg-danblue">
+     点击复制👉<text bindtap='copy'>"誩哥哥说"</text>
+    </view>
+  </item>
+</timeline>
+<timeline>
+  <time>01-05</time>
+  <item class='icon-time text-purple'>
+    <view class="content bg-green">
+      添加小程序更新目录——时间轴
+    </view>
+  </item>
+</timeline>
+<timeline>
+  <time>01-03</time>
+  <item class='icon-time text-blue'>
+    <view class="content  bg-blue">
+       小程序更名——“拇指笔记”
+    </view>
+  </item>
+</timeline>
+<timeline>
+  <time>01-01</time>
+  <item class='icon-time text-pink'>
+    <view class="content  bg-pink">
+       发布第一款版本小程序——“手帐集”
+    </view>
+  </item>
+</timeline>

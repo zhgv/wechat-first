@@ -1,0 +1,63 @@
+<view class="personal-container">
+  <view class="bg-container">
+    <view class='bg-image'>
+      <image src='/images/bg.png'></image>
+    </view>
+    <view>
+      <view class='user-image'>
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+    </view>
+    <view class='user-info'>
+      <view class='article'>
+        <view class="mingyan">生活在于经历,也在于记录</view>
+      </view>
+    </view>
+  </view>
+  <view class='content-container'>
+    <view class='content-item say-love' bindtap="openCollect">
+      <view>
+        <image src='/images/my-collect.png' class='item-image'></image>
+      </view>
+      <view class='word'>收藏</view>
+    </view>
+    <view class='content-item hide-love' bindtap="openViewLog">
+      <view>
+        <image src='/images/note.png' class='item-image'></image>
+      </view>
+      <view class='word'>笔记记录</view>
+    </view>
+  </view>
+
+  <view class='suggestion' bindtap='opentime'>
+    <view>
+      <image src='/images/time.png' class='item-image'></image>
+    </view>
+    <view class='word'>时间轴</view>
+  </view>
+  <view class='suggestion' bindtap='openAbout'>
+    <view>
+      <image src='/images/about.png' class='item-image'></image>
+    </view>
+    <view class='word'>关于拇指笔记</view>
+  </view>
+  <view class='content-item hide-love' bindtap="openkefu">
+    <view>
+      <image src='/images/kefu.png' class='item-image'></image>
+    </view>
+    <view class='word'>联系客服
+      <!-- 这里客服功能考虑到客服按钮太丑！type='default-light'隐藏掉 -->
+      <contact-button type='default-light' class='word'> </contact-button>
+      <contact-button type='default-light' class='word'> </contact-button>
+      <contact-button type='default-light' class='word'> </contact-button>
+      <contact-button type='default-light' class='word'> </contact-button>
+    </view>
+  </view>
+</view>
+<i-modal visible="{{ visible1 }}" bind:ok="closeCollect" bind:cancel="closeCollect">
+  <view>点击右上角——即可添加到我的小程序√</view>
+  <view>欢迎使用你来体验拇指笔记！😄</view>
+</i-modal>
+<i-modal visible="{{ visible2 }}" bind:ok="closeViewLog" bind:cancel="closeViewLog">
+  <view>笔记历史记录功能正在开发中,请稍安勿躁</view>
+</i-modal>

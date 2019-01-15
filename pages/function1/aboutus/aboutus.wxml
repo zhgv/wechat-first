@@ -1,0 +1,8 @@
+<!--page/aboutus/aboutus.wxml-->
+<view class='about'>
+  <i-card  thumb="/images/tu.png" extra="拇指笔记">
+    <view slot="content">小程序使用说明：本款小程序采用的是数据缓存方式，若是清空小程序数据或换手机等，笔记的记录将会清空！小程序的初衷是为了即记即做，方便使用者高效完成计划、目标。谢谢您的使用💗</view>
+    
+</i-card>
+<i-card title="联系开发者" extra="微信号：zhg5217"></i-card>
+</view>
